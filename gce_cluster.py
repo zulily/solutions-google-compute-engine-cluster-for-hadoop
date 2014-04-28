@@ -67,7 +67,7 @@ class GceCluster(object):
 
   DEFAULT_ZONE = 'us-central1-a'
   DEFAULT_IMAGE = ('projects/debian-cloud/global/images/'
-                   'debian-7-wheezy-v20140408')
+                   'debian-7-wheezy-v20140415')
   DEFAULT_MACHINE_TYPE = 'n1-highcpu-4'
   DEFAULT_DATA_DISK_SIZE_GB = 500
   COMPUTE_STARTUP_SCRIPT = 'startup-script.sh'
